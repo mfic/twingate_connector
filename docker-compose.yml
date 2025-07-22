@@ -14,3 +14,5 @@ services:
       - TWINGATE_REFRESH_TOKEN=${TWINGATE_REFRESH_TOKEN}
       - TWINGATE_LOG_LEVEL=3
       - TWINGATE_LOG_ANALYTICS=v2
+    labels:
+      - "com.watchtower.enable=true"
